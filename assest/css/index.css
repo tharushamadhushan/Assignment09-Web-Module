@@ -1,0 +1,27 @@
+body{
+    background: black;
+}
+div{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    left: 350px;
+    top: 20vw;
+    position: relative;
+    display: inline-block;
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    left: 650px;
+    top: 20vw;
+    position: relative;
+}
+div:first-child{
+    border-radius: 15px 0px 0px 15px;
+}
+div:last-child{
+    border-radius: 0px 15px 15px 0px;
+}
